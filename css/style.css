@@ -9,6 +9,7 @@ body{
 .footer{
 	background: #ebeff3;
 	list-style: none;
+	font-weight: bold;
 }
 .card-body{
 	background-color: #fcfcfd;
@@ -35,8 +36,10 @@ div>h3{
 	top: 0%;
 	text-align: ;
 	width: 100%;
-	background-color: lightblue;
+	background-color: #ebeff3;
 	height: 100%;
+	padding-top: 70px;
+	padding-left: 120px;
 }
 span{
 	text-decoration:orange;
@@ -51,19 +54,23 @@ nav>ul{
 		right: 0px;
 		padding-top: 0px
 		background-color: #a3aeb9;
+		height: 20px;
+	
 
 	}
 	nav>ul>li>a{
-		text-decoration: none;
-		color: ;
+		text-decoration: #5a6268;
+		color: #5a6268;
 		font-size:14px;
 		font-weight: bold;
-		padding: 10px 50px 50px 20px;
+		padding: 10px 50px 10px 20px;
+		float: right;
 
 	}
 	nav>ul>li{
 		list-style: none;
-		float: left;
+		float: right;
+		tec
 	}
 	nav>ul>li:hover{
 		background-color: white;
@@ -84,4 +91,44 @@ h4{
 }
 .fa{
 	text-align: center;
+}
+div>h2{
+	display: inline-block;
+	float: right;
+	padding-top: 120px;
+	float: right;
+}
+div>h3{
+	display: inline-block;
+}
+.body-ul{
+	list-style: none;
+}
+h1{
+	padding-top: 10px;
+}
+h5{
+	padding-left: 100px;
+}
+.price{
+	text-decoration: line-through;
+	text-align: right;
+    float: right;
+}
+.box2{
+	position: relative;
+	display:inline;
+	width: 0%;
+	height:0%;
+
+}
+.text2{
+	position: absolute;
+	z-index: 999;
+	margin: 0 auto;
+	left: 0;
+	padding-top:180px;
+	padding-left: 200px;
+	color: red;
+	text-decoration: bold;
 }
